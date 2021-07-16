@@ -1,0 +1,41 @@
+
+1. Logical AND operator (&(bitwise opr.) and &&(boolean opr.))
+    & => always checks both side as bitwise
+    && => if left side enough for the result, it don't look right side.
+    Operand1  AND  Operand2    Returned
+    false           false       false
+    false           true        false
+    true            false       false
+    true            true        true
+
+
+2. Logical OR operator (|(bitwise opr.) and ||(boolean opr.))
+    | => always checks both side as bitwise
+    || => if left side enough for the result, it don't look right side.
+    Operand1  OR  Operand2    Returned
+    false           false       false
+    false           true        true
+    true            false       true
+    true            true        true
+
+
+3. Logical NOT operator (!)
+
+    Operand     Returned
+    false       true
+    true        false
+
+4. ^ Exclusive or
+
+    Operand1        Operand2       Returned
+    true    ^       true            false
+    false   ^       true            true
+    true    ^       false           true
+    false   ^       false           false
+
+**Precedence of logical operators
+    ! is evaluated first
+    && is evaluated second
+    || is evaluated third
+
+    System.out.println(!(false) || true && false); ===> ture

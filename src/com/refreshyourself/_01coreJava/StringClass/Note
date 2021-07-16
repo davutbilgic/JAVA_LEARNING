@@ -1,0 +1,61 @@
+
+    How to create a String Object
+
+    ClassName ObjectName = Value;
+
+        String firstName = new String("apple";
+        String firstName = "Adam";
+
+================================
+
+    length();
+        "Belize".length(); ==> 6
+
+    toUpperCase()
+        String country = new String();
+        country = "Belize";
+        country.toUpperCase(); ==> BELIZE
+
+    toLowerCase()
+        String country = "Belize";
+        country.toLowerCase(); ==> belize
+
+    startsWith(String s)
+        String country = new String("Belize");
+        country.startsWith("B"); ==> true
+
+    endsWith(String s)
+        String country = new String("Belize");
+        country.endsWith("e"); ==> true
+
+    contains(String s)
+        String country = "Belize is a country;
+        country.contains("is"); ==> true
+
+    ===============
+    Size/Length
+        "Java"
+         1234
+    Index
+        "Java"
+         0123
+
+    charAt(int index)
+        String country = "Belize";
+        country.charAt(0); ==> B
+
+    indexOf(String str)
+        String country ="Belize);
+        country.indexOf("i"); ==> 3
+
+    substring(int beginning)
+        String country = "Belize";
+        country.substring(2); ==> lize
+
+    substring(int beginning, int ending)
+        String country = "Belize";
+        country.substring(2,5); ==> liz
+
+    trim()
+        String country = "   Belize  ";
+        country.trim(); ==> "Belize"

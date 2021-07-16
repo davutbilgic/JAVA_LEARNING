@@ -1,0 +1,18 @@
+                          Operator      Integer,            Character           Boolean
+                                        Float Point         Example             Example
+                                        Example
+
+Greater than                >           5 > 4               'c' > 'a'           not available
+
+Greater than or equal to    >=          5 >= 4              'c' >= 'a'          not available
+                                        4 >= 4              'a' >= 'a'
+
+Less than                   <           4 < 5               'a' < 'c'           not available
+
+Less than or equal to       <=          4 <= 5              'a' <= 'c'          not available
+                                        4 <= 4              'a' <= 'a'
+
+Equal to                    ==          5 == 5              'c' == 'c'          true == true
+                                                                                false == false
+
+Not equal to                !=          4 != 5              'a' != 'c'          true != false

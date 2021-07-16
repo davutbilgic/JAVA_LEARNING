@@ -1,0 +1,36 @@
+
+     // 1 dimensional array
+     int[] intArray = {12,13,43,5,66};
+
+     // 2 dimensional array
+     int[][] array_of_intArray = {intArray, intArray, intArray, intArray};
+     int[][] array_of_intArray = {{12,13,43,5,66}, {12,13,43,5,66}, {12,13,43,5,66}, {12,13,43,5,66}};
+
+     // 3 dimensional array
+     int[][][] threeD_Array = {array_of_intArray, array_of_intArray};
+     int[][][] threeD_Array = {{{12,13,43,5,66}, {12,13,43,5,66}, {12,13,43,5,66}, {12,13,43,5,66}},
+                               {{12,13,43,5,66}, {12,13,43,5,66}, {12,13,43,5,66}, {12,13,43,5,66}}};
+
+
+     //example for declaring 2 dimensional int array
+     //with size;
+     int[][] intArray = new int[7][3];
+     int[] intArray[] = new int[7][3];
+     int intArray[][] = new int[7][3];
+
+     //example for declaring 2 dimensional array
+     //String array with size
+     String[][] data = new String[7][3];
+
+     //example for declaring 2 dimensional int array
+     //with size and assigning value
+     int[][] data = new int [2][3];
+        data[0][0] = 12;
+        data[0][1] = 5;
+        data[0][2] = 4;
+        data[1][0] = 23;
+        data[1][1] = 113;
+        data[1][2] = 32;
+
+     //
+

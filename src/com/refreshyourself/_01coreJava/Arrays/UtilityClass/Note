@@ -1,0 +1,67 @@
+
+    Using Arrays Class from java.util package for common array operations
+        import java.util.Arrays;
+        import java.util.*;
+
+    int[] targetArrayObject = {11,4,6};
+    int targetItemToSearch = 4;
+
+    Arrays.sort(targetArrayObject);//4,6,11
+    Array.binarySearch(targetArrayObject, targetItemToSearch);//0
+    //Optionally
+    Array.toString(targetArrayObject);//[4,6,11]
+
+                Sorting an Array
+    int[] intArray = {2,15,7,1,3};
+    //syntax for sorting array elements
+    Array.sort(intArray);
+
+        for(int item: intArray){
+
+            System.out.println("numbers " + item);// 1,2,3,7,15
+        }
+
+                Getting string value of Array items
+    int[] ints = {2,15,7,1,3};
+
+    Array.sort(ints);
+    //Syntax for sorting Array elements
+    System.out.println(Arrays.toString(ints));
+
+    System.out.println(ints); //[I@7a46a697
+
+
+                Sorting a String Array
+    String[] names = {"John","Adam", "Don"};
+    //Syntax for sorting Arrah elements
+    Array.sort(ints);
+        for(String item:names){
+            System.out.println("names " + item);//Adam, Don, John
+        }
+
+                Searching within an Array
+    Arrays Class from java.util package provide convenient way to search ONLY IF the array is already sorted.
+    //syntax format
+    Array.binarySearch(yourArray, element);
+
+
+                Binary search result
+              Scenario                              Result
+    Element found in sorted array               Index of match
+
+    Element not found in sorted array           Negative value showing one smaller than the negative of
+                                                intex, where m match needs to be instead to preserve sorted order
+
+    Unsorted Array                              Unpredictable result
+
+
+
+    Example of binary search;
+                Using Binary Search
+    //Syntax for accessing Array elements
+    int[] ints = {2,5,7,14};
+
+    System.out.println(Array.binarySearch(ints,2)); -> 0
+    System.out.println(Array.binarySearch(ints,7)); -> 2
+    System.out.println(Array.binarySearch(ints,9)); -> -4
+    System.out.println(Array.binarySearch(ints,15)); -> -5

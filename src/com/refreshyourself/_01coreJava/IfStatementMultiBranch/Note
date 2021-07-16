@@ -1,0 +1,8 @@
+
+    if(a condition is true/false){
+        Do some action...
+    }else if(another condition is true){
+        Do some other action
+    }else{
+        Do something else...
+    }

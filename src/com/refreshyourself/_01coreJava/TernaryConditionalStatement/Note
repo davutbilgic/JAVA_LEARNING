@@ -1,0 +1,20 @@
+
+
+
+
+           if condition is true
+            ..................
+        CONDITION   ?   EXPRESSION_1    :   EXPRESSION_2
+            .....................................
+                     if condition is false
+
+
+        That's mean example;
+
+        if(n1>n2){
+            max=n1;
+        }else{
+            max=n2;
+        }
+
+        max = (n1>n2)?n1:n2;

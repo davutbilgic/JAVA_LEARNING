@@ -1,0 +1,45 @@
+
+    Arrays: Single variable that hold multiple value of same type.
+
+    Syntax format;
+        dataType[] variableName = new dataType[size];
+
+    Creating an Array of primitives;
+        int[] numbers = new int[3];
+        or
+        int numbers[] = new int[3];
+
+        Element     0   0   0
+        Index       0   1   2
+
+    Let's assign new value;
+        numbers[0] = 2;
+        numbers[1] = 5;
+        numbers[2] = 7;
+
+        Element     2   5   7
+        Index       0   1   2
+
+    Also, you can do that all by one line;
+        int[] numbers = new int[]{2,5,7};
+        or
+        int[] numbers = {2,5,7};
+
+    For String;
+        String[] names = new String[]{"Forest","Alisa","Jhon"};
+        or
+        String[] names = {"Forest","Alisa","Jhon"};
+
+    For Reference type;
+        Person p1 = new Person();
+        Person p2 = new Person();
+        Person p3 = new Person();
+
+        Person[] people = new Person[3];
+        people[0] = p1;
+        people[1] = p2;
+        people[2] = p3;
+        or
+        Person[] people = new Person[]{p1,p2,p3};
+        or
+        Person[] people = {p1,p2,p3};

@@ -1,0 +1,21 @@
+
+    In Java there 3 types loop;
+        -While loop
+        -Do while loop
+        -For loop
+
+    while(condition){
+        keep doing this;
+    }
+
+    do{
+        statements;
+    }while(condition);
+
+    for(initialization; condition; updates){
+        statements;
+    }
+
+    for(dataType item: collection){
+        some action;
+    }
