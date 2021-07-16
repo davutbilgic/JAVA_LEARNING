@@ -10,6 +10,7 @@ public class CastingPrimitives {
         //byte > short > int > long > float > double
         double d1 = 200;
         long l =i;
+        System.out.println(i);
         System.out.println(d1);//200.0
 
         //EXPLICIT CASTING
@@ -23,7 +24,9 @@ public class CastingPrimitives {
 
         int int1 = (int) (5/2.0);
 
+        System.out.println(int1);
         String str = "10";
         //int n1 = str; //error
+
     }
 }
