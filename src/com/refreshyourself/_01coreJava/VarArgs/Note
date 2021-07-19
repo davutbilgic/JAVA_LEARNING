@@ -1,0 +1,12 @@
+
+    VarArgs is short for variable arguments where you can pass a variable number of argument with same type.
+    It can be seen same as array when used as method parameters.
+
+    public static void main(String[] args){}
+    public static void main(String... args){}
+
+    public int addNumbers(int[] numbers){}
+    public int addNumbers(int... numbers){}
+
+        Varargs can be used same as array inside method.
+
