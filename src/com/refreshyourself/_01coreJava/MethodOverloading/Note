@@ -1,0 +1,40 @@
+
+    ->What is Overloading;
+        In a class, we can define multiple version of constructor and methods with different method signatures.
+            (Method signature is ; *Name,   *Number of Parameters,  *Type of each parameters) Note: Return type is
+            not part of signature.
+
+        Constructor Overloading is;
+            Name is fixed as a class name,
+            Different Number of Parameters OR
+            Different Type of each parameters.
+
+                Public class Student{
+                    String name;
+                    String school;
+                    int age;
+
+                    public Student(){
+
+                    }
+                    public Student(String name, int age){
+
+                    }
+                    public Student(String name, String school, int age){
+
+                    }
+                }
+
+        Method Overloading is;
+            Same method name,
+            Different Number of Parameters OR
+            Different Type of each parameters.
+
+            Note: We can not have a method or Constructor with same name and same parameter list in same class.
+
+                System.out.println();
+                                  println()
+                                  println(boolean x)
+                                  println(char x)
+                                  println(double x) ....more
+
