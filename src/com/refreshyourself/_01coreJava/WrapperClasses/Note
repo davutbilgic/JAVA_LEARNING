@@ -1,0 +1,40 @@
+
+    ->Primitive Wrapper Classes
+        It's the classes that provided in JDK for creating an Object that needs to represent primitive types.
+
+    ->Boxing:
+        Primitive Type -> Wrapper Reference Type
+                  int  -> Integer
+
+    ->Unboxing:
+        Wrapper Reference Type -> Primitive type
+                       Integer -> int
+
+    ->Auto-boxing:
+        Integer i1 = 12;
+
+    ->Auto-unboxing:
+        int i1 = new Integer("12");
+
+
+
+    ->Converting from String Object;
+        Wrapper class       Converting String to Primitive              Converting String to wrapper class
+        Boolean             Boolean.parseBoolean("true");               Boolean.valueOf("FALSE");
+        Character           None                                        None
+        Byte                Byte.parseByte("1");                        Byte.valueOf("1");
+        Short               Short.parseShort("1");                      Short.valueOf("1");
+        Integer             Integer.parseInt("1");                      Integer.valueOf("1");
+        Long                Long.parseLong("1");                        Long.valueOf("1");
+        Float               Float.parseFloat("1");                      Float.valueOf( "1");
+        Double              Double.parseDouble("1");                    Double.valueOf("1");
+
+
+    ->Benefit of Primitive Wrapper Classes
+        Use primitive type as Object.
+        Value can be set to null, which is not the case for primitives.
+            Integer = null;
+        It has fields and methods like other classes
+            Long.MIN_VALUE; Integer.compare(x,y);
+            doubleVar.isNaN(); Character.isDigit(ch); and more...
+
