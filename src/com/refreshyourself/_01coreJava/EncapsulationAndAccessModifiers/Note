@@ -1,0 +1,30 @@
+
+    -> Encapsulation;
+        Restrict access to the inner workings of that class or any objects based on that class.
+        It's also referred as information hiding of data hiding.
+
+        Access modifiers is;
+            -public
+            -protected
+            -default
+            -private
+
+        Access                  Same        Same            Sub-Classes          The rest of the
+        modifiers               Class       Package         outside Package      world
+
+        public                  Y           Y               Y                    Y
+        protected               Y           Y               Y                    N
+        default(no modifier)    Y           Y               N                    N
+        private                 Y           N               N                    N
+
+
+
+        **Good Encapsulation practice is:
+            -Making instance fields private.
+            -Provide public methods to access data or modify data;
+                Those method are called getters and setters(Or accessor and mutator)
+                By convention:
+                                named as getXXX
+                                and      setXXX
+
+        If you provide only getter in a class, that class become IMMUTABLE.
