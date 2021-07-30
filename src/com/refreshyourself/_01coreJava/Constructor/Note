@@ -1,0 +1,87 @@
+
+    ->What is Constructor?
+        A special method that invoked every time an object is created.
+            -It has same name as class
+            -It does not have a return type
+                    public class Student{
+
+                        public Student(){
+
+                        }
+                    }
+
+    ->When java sees the new keyword, it allocates memory for the new object. Java also looks for a constructor and calls it.
+
+    ->Constructor calls examples;
+        Student s1 = new Student();
+        Scanner scanner = new Scanner(System.in);
+        Integer i1 = new Integer("123");
+        String str1 = new String();
+        String str2 = new String("My String");
+        Person p1 = new Person("John", 28);
+
+    ->Constructor Overloading;
+        -A class can have multiple constructor with different method signature(parameter list).
+        -It is called Constructor overloading,
+                public class Student{
+
+                    public Student(){
+
+                    }
+
+                    public Student(String sName){
+
+                    }
+                }
+
+    ->Default Constructor
+        -A constructor provided by compiler is called default constructor.
+        -A default constructor is provided by compiler only if no constructor is defined in class.
+        -A default constructor is invisible and has empty body.
+
+    ->Using <this> Keyword to refer instance variable;
+        public class Student{
+
+            string name;
+            String school;
+            int age;
+
+            public Student(String name, int age){
+                this.name=name;
+                this.age= age;
+                System.out.println("2 arg Constructor"
+            }
+        }
+
+        -this keyword is used to reference current instance of an object.
+        -<this> keyword is useful when we have instance variable and method parameter with same name.
+            For example: this.name always point to instance variable.
+
+
+    ->Chaining Constructors;
+        -Only a constructor can call other constructor in same class
+        -It can be achieved using this keyword with parentheses to pass arguments: this(arguments...)
+                public class Student {
+                    String name;
+                    String school;
+                    int age;
+
+                    public Student(){
+                        System.out.println("no arg Constructor");
+
+                    }
+
+                    //constructor chaining
+                    public Student(String name, int age){
+                        this();
+                        System.out.println("2 arg Constructor");
+                    }
+
+                    //constructor chaining
+                    public Student(String name, int age, String school){
+                        this(name,age);
+                        System.out.println("3 arg Constructor");
+                    }
+
+
+                }
