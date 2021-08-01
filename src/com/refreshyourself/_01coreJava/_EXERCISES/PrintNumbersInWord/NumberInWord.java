@@ -1,6 +1,4 @@
-package com.refreshyourself._01coreJava.EXERCISES.PrintNumbersInWord;
-
-import java.lang.reflect.Array;
+package com.refreshyourself._01coreJava._EXERCISES.PrintNumbersInWord;
 
 public class NumberInWord {
 

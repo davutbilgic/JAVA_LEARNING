@@ -1,0 +1,34 @@
+
+    ->What is collection?
+        Simply an object that groups multiple elements into a single unit.
+
+    ->Why do we nee it?
+        Even though Array provide basic feature, it has many limitations like;
+            -Not resizable
+            -Not print friendly
+            -Can not add and remove tem easily
+            -ect...
+
+    ->Benefits?
+        -Reduces programming effort
+        -Increases program speed and quality
+        -Avoid reinventing the wheel
+        -Fosters software reuse
+
+    ->Collection Framework contain:
+        -Interfaces
+        -Implementations
+        -Algorithm
+
+    ->Collection:Provide base guideline for all other collections, Parent interface.
+        List: Ordered Collection(indexed), May contain duplicate.
+        Set: A Collection that cannot contain duplicate elements.
+        Queue: A Collection that Provide First-in-First-Out or Last-in-First-Out structure.
+        Map: A Collection of Key-Value Pair.
+
+    ->  Interface                          VS                       Implementation
+        Multiple data structure                                     Specific Data Structure like ArrayList
+        Functional Characteristic                                   Performance Characteristic
+        Prefer as variable type                                     Concrete and Instantiable
+        Often has popular implementation                            For example List interface has Arraylist
+
