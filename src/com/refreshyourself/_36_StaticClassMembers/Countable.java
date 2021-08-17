@@ -11,7 +11,5 @@ public class Countable {
 	public int getInstanceCount() {
 		return instanceCount;
 	}
-	
-	
 
 }

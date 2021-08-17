@@ -9,9 +9,9 @@ public class Person {
 
 
 	//instance variables 
-	private String name;
-	private int age;   //how i can restrict this accesss?
-	private  char gender;
+	private final String name;
+	private final int age;   //how i can restrict this accesss?
+	private final char gender;
 	
 	
 	public Person(String name, int age, char gender) {

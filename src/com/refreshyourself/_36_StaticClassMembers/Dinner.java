@@ -7,7 +7,7 @@ public class Dinner {
 	public void takeASlice() {
 		pizzaSlice--;
 	}
-	
+
 	public void takeASlice(int count) {
 		pizzaSlice-=count;
 	}
