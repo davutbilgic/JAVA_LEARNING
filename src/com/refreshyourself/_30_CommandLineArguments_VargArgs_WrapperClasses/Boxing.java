@@ -5,7 +5,7 @@ public class Boxing {
 	public static void main(String[] args) {
 		
 		//AUTOBOXING - > primitive to object
-		Integer num1 = 1234;
+		Integer num1 = 1234;//
 		int n = 5;
 		Integer num2 = n;
 		
